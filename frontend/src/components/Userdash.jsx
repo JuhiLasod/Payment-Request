@@ -4,7 +4,7 @@ function UpiPayButton() {
   const [amount, setAmount] = useState("");
 
   const handlePay = () => {
-    const upiLink = `upi://pay?pa=juhilasod29@okhdfcbank&pn=Juhi%20Lasod&am=${amount}&cu=INR`;
+    const upiLink = `upi://pay?pa=jalajlasod26@okhdfcbank&pn=jalaj%20lasod&am=${amount}&cu=INR`;
     window.location.href = upiLink;
   };
 
