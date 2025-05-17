@@ -5,7 +5,8 @@ function UpiPayButton() {
 
   const handlePay = () => {
     const upiLink = `upi://pay?pa=jalajlasod26@okhdfcbank&pn=jalaj%20lasod&am=${amount}&cu=INR`;
-    window.location.href = upiLink;
+    window.open(upiLink);
+
   };
 
   return (
