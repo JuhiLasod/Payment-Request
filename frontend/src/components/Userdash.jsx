@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function UpiPayButton() {
+function Userdash() {
   const [amount, setAmount] = useState("");
 
   const handlePay = () => {
@@ -23,4 +23,4 @@ function UpiPayButton() {
   );
 }
 
-export default UpiPayButton;
+export default Userdash;
