@@ -21,6 +21,10 @@ function Userdash(){
             <button onClick={handlePay}>pay now</button>
             <div>
                 {(qr) && (<img src={qr} alt="upi qr"/>)}
+                <br />
+    <a href={qr} download="upi_qr.png">
+      <button>Download QR</button>
+    </a>
             </div>
         </div>
     );
