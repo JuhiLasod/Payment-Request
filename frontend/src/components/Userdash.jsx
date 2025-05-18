@@ -3,7 +3,7 @@ function Userdash(){
     const [am,setAm]=useState('');
     const [qr,setQr]=useState('');
     const handlePay=async()=>{
-        const res=await fetch("http://localhost:8000/api/qr/generate",{
+        const res=await fetch("https://payment-request1.onrender.com/api/qr/generate",{
             method: "POST",
             headers: {"Content-Type":"application/json"},
             body: JSON.stringify({am})
